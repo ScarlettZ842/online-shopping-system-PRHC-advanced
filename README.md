@@ -439,6 +439,8 @@ https://github.com/PuneethReddyHC/event-management
 ![Image of adduser](https://github.com/PuneethReddyHC/online-shopping-with-advanced-admin-page/blob/master/screenshot/store.png)
 ![Image of adduser](https://github.com/PuneethReddyHC/online-shopping-with-advanced-admin-page/blob/master/screenshot/storepage.png)
 ![Image of adduser](https://github.com/PuneethReddyHC/online-shopping-with-advanced-admin-page/blob/master/screenshot/storepage1.png)
+<img width="1418" height="736" alt="Screenshot 2026-01-07 at 18 18 59" src="https://github.com/user-attachments/assets/a10fc1bc-72de-4821-92b6-ee9b0a5d533a" />
+
 
 ## Contributing
 
