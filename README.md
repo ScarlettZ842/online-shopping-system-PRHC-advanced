@@ -217,12 +217,6 @@ Or use any MySQL client (MySQL Workbench, phpMyAdmin, etc.) with:
 - **Username**: `admin`
 - **Password**: `123456789`
 
-### Test User Account
-
-- **Email**: `otheruser@gmail.com`
-- **Username**: `otheruser`
-- **Password**: `support`
-
 ---
 
 ## Docker Architecture
