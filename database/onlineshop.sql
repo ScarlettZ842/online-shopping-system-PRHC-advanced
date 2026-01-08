@@ -8,6 +8,7 @@
 -- PHP Version: 7.4.11
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET FOREIGN_KEY_CHECKS=0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -343,7 +344,7 @@ CREATE TABLE `reviews` (
 --
 
 INSERT INTO `reviews` (`review_id`, `product_id`, `name`, `email`, `review`, `datetime`, `rating`) VALUES
-(6, 1, 'support Reddy H C', 'puneethreddy951@gmail.com', 'this is my first review', '2020-11-04 19:14:10', 2),;
+(6, 1, 'support Reddy H C', 'puneethreddy951@gmail.com', 'this is my first review', '2020-11-04 19:14:10', 2);
 
 -- --------------------------------------------------------
 
@@ -622,6 +623,8 @@ ALTER TABLE `orders_info`
 ALTER TABLE `order_products`
   ADD CONSTRAINT `order_products` FOREIGN KEY (`order_id`) REFERENCES `orders_info` (`order_id`) ON DELETE NO ACTION ON UPDATE CASCADE,
   ADD CONSTRAINT `product_id` FOREIGN KEY (`product_id`) REFERENCES `products` (`product_id`);
+
+SET FOREIGN_KEY_CHECKS=1;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
